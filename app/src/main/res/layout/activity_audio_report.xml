@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AudioReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20sp"
+        android:orientation="vertical"
+        android:background="@drawable/finalaudioreportbg">
+
+        <TextView
+            android:id="@+id/textViewAudioreport"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/bungee"
+            android:text=" Audio Evidence Report"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textViewvisualreport22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text=" Submitting Report As:"
+            android:textAlignment="center"
+            android:textColor="@color/blackk"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <RadioGroup
+            android:id="@+id/radiogrp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Victim"
+                android:textColor="#EE0000"
+                android:textSize="18sp"
+                android:textStyle="bold"></RadioButton>
+
+            <RadioButton
+                android:id="@+id/radio_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="Facilitator"
+                android:textColor="#EE0000"
+                android:textSize="18sp"
+                android:textStyle="bold"></RadioButton>
+
+        </RadioGroup>
+
+
+        <Button
+            android:id="@+id/selectFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@drawable/black_shape"
+            android:layout_marginTop="20sp"
+
+            android:text="Select Audio File" />
+
+        <EditText
+            android:id="@+id/audioDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/rounded_boarder"
+            android:gravity="center_horizontal"
+            android:hint="PLEASE PROVIDE SUFFICIENT DESCRIPTION FOR THE AUDIO FILE YOU ARE UPLOADING , HERE !"
+            android:inputType="textMultiLine"
+            android:textColor="#FF0000" />
+
+
+
+        <TextView
+            android:id="@+id/notification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:text="No File Selected"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/uploadAudioReport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="30sp"
+            android:visibility="invisible"
+            android:textColor="#fff"
+            android:background="@drawable/black_shape"
+            android:text="Send Audio Report" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

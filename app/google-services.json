@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "261127485313",
+    "firebase_url": "https://surakshasos-ba243.firebaseio.com",
+    "project_id": "surakshasos-ba243",
+    "storage_bucket": "surakshasos-ba243.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261127485313:android:b8d71f903edd2ca84d5a80",
+        "android_client_info": {
+          "package_name": "com.example.sostry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261127485313-lipd989ubsou373atr7ltkbn62ak76st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sostry",
+            "certificate_hash": "55934b619f7a9ebcc6972a5c0aa41be50b63d1a2"
+          }
+        },
+        {
+          "client_id": "261127485313-a6jru9h9t73qh7lsll7nmtttm8f06qrs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBge0KLaTqA5Ub8rnmSZ0u5rqc5npu2H1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261127485313-a6jru9h9t73qh7lsll7nmtttm8f06qrs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

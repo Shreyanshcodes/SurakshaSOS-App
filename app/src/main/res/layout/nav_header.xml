@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200sp"
+    android:background="@android:color/black"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/proflepic"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/final_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8sp"
+        android:id="@+id/nameehead"
+        android:text="Loading..."
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+</LinearLayout>
